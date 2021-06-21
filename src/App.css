@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  overflow: hidden;
+}
+
 @media (prefers-reduced-motion: no-preference) {
 }
 
@@ -42,7 +46,11 @@
 div.content {
   margin-left: 20%;
   padding: 1px 16px;
-  height: 100%;
+  padding-top: 40px;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+  width: 78%;
+  text-align: justify;
 }
 
 div.content p {
@@ -67,5 +75,9 @@ div.content p {
   .sidebar a {
     text-align: center;
     float: none;
+  }
+
+  div.content {
+    width: 90%;
   }
 }

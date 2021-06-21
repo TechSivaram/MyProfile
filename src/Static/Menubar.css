@@ -1,0 +1,51 @@
+.scrollmenu {
+    background-color: rgb(237, 243, 243);
+    overflow: auto;
+    white-space: nowrap;
+    float: right;
+    width: 80%;
+    text-align: right;
+    position: relative;
+    position: fixed;
+    left: 20%;
+}
+
+.scrollmenu #myLinks {
+    display: block;
+    float: right;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: rgb(99, 184, 190);
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.scrollmenu .icon {
+    display: none;
+}
+
+.scrollmenu a:hover {
+    background-color: rgb(207, 216, 221);
+}
+
+@media screen and (max-width: 400px) {
+    .scrollmenu {
+        background-color: #e9eff1;
+        width: 100%;
+        position:sticky;
+        left: 0%;
+    }
+
+    .scrollmenu #myLinks {
+        display: block;
+    }
+
+    .scrollmenu .icon {
+        display: block;
+    }
+}
