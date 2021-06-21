@@ -78,6 +78,13 @@ div.content p {
   }
 
   div.content {
-    width: 90%;
+    padding-top: 0px;
+    width: 85%;
+    height:unset;
+    overflow: scroll;
+  }
+
+  body{
+    overflow: auto;
   }
 }
