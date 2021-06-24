@@ -12,15 +12,15 @@ function MainContent() {
 
             <h1 style={{ color: "Grey" }}>Tech Stacks</h1>
 
-            <p> Microsoft, MERN, MEAN, Cloud (AWS, Azure), PYTHON, MS SQL, Postgress, HASURA, GraphQL, Docker,
-                Microservices, WebRTC, Twilio, Xstate, ASP.NET, .net core, Linux Deployments, EF core, Java, Spring Boot,
-                SyncFusion, DevOps, Ansible, Git, Bit Bucket, Source Tree, Ionic-Capacitor, Flutter, Dart, Android, IOS (not much)</p>
+            <p> Microsoft, MERN, MEAN, Cloud (AWS, Azure), PYTHON, MS SQL, PostgreSQL, HASURA, GraphQL, Docker, Kubernetes,
+                Microservices, WebRTC, Twilio, Xstate, ASP.NET, .net core, Linux Deployments, EntityFramework core, Java, Spring Boot,
+                SyncFusion, DevOps, Ansible, Git, Bit Bucket, GitLab, GitHub, Source Tree, Ionic-Capacitor, Flutter, Dart, Android, IOS (not much)</p>
 
             <h1 style={{ color: "Grey" }}>On AWS</h1>
 
             <p> Route53, Cloud Front, ACM, Secrets Manager, S3, Load Balancers, Auto Scaling,
-                EC2, ECS, Fargate, EFS, RDS, Aurora, Cognito, Pinpoint, SNS, SES, AWS Connect (Cotact Centre),
-                Kinesis, Kinesis Signal Channels, CloudWatch, IAM, Code Commit, ELB,
+                EC2, ECS, Fargate, EKS, EFS, RDS, Aurora (PostgreSQL), Cognito, Pinpoint, SNS, SES, AWS Connect (contact Centre), Chime,
+                Kinesis, Kinesis Signal Channels, CloudWatch, IAM, Code Commit, Elastic Beanstalk, ElastiCache (Redis),
                 Code Build, Code Deploy, Code Pipeline, Lambda, API Gateway, Dynamo DB, Document DB,
                 Database Migration Services, Billing Optimization, Cloud Formation, Textract </p>
 

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons'
+import { faCloudDownloadAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons'
 
 function SideContent() {
   return (
@@ -24,7 +25,22 @@ function SideContent() {
           <FontAwesomeIcon icon={faCloudDownloadAlt} size="xs" />
         </a>
       </div>
-
+      <p style={{ position: "relative", color: "grey" }}></p>
+      <div style={{ position: "relative", display: "inline-block" }}>
+        <a href="https://github.com/TechSivaram" alt="github">
+          <FontAwesomeIcon icon={faGithub} size="xs" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/sivaram-movva" alt="linkedin">
+          <FontAwesomeIcon icon={faLinkedin} size="xs" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="skype:live:sivaram.movva_2" alt="live:sivaram.movva_2">
+          <FontAwesomeIcon icon={faSkype} size="xs" />
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="mailto:sivaram.movva@gmail.com" alt="sivaram.movva@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope} size="xs" />
+        </a>
+      </div>
+      <p style={{ position: "relative", color: "grey" }}></p>
     </div >
   );
 }
