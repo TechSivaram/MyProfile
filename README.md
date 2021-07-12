@@ -1,7 +1,9 @@
 # MyProfile
 Creating a project to let know about me
 
-The add banner you are seeing in the following image is for COVID drive which has been conduced by one of my client
+The add banner you are seeing in the following image is for COVID drive.
+
+This COVID drive has been conduced by one of my diagnostics lab client at many sites & for many employers across USA.
 
 https://mobile.twitter.com/morrisville_nc/status/1362847940029652992
 
